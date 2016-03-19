@@ -3,15 +3,44 @@
 	{
 		"selected_items":
 		[
+			[
+				"vid",
+				"video"
+			],
+			[
+				"vide",
+				"video-list-item.jsx"
+			],
+			[
+				"Vi",
+				"VideoListItem"
+			],
+			[
+				"Ap",
+				"API_KEY"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "import React from \"react\";\nimport ReactDOM from \"react-dom\";\nimport App from \"./components/app\";\n\nconst API_KEY = \"AIzaSyA7TK1rNzqw4vGnyjoVWwHqFoX3E2lvkeQ\";\n\n//import reducers from './reducers';\n//const createStoreWithMiddleware = applyMiddleware()(createStore);\n\nReactDOM.render(<App />, document.querySelector(\".container\"));\n",
-			"file": "src/index.js",
-			"file_size": 340,
-			"file_write_time": 131022185504128607,
+			"file": "src/components/app.jsx",
+			"settings":
+			{
+				"buffer_size": 609,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/video-list-item.jsx",
+			"settings":
+			{
+				"buffer_size": 315,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/video-list.jsx",
 			"settings":
 			{
 				"buffer_size": 328,
@@ -19,63 +48,19 @@
 			}
 		},
 		{
-			"contents": "import React, { Component } from \"react\";\nimport SearchBar from \"./search-bar\";\n\nexport default class App extends Component {\n  render() {\n    return (\n		<div>\n			Type here: <SearchBar />\n		</div>\n	);\n  }\n}\n",
-			"file": "src/components/app.jsx",
-			"file_size": 220,
-			"file_write_time": 131022187259815083,
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 207,
+				"buffer_size": 372,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "import React, {Component} from \"react\";\n\nexport default class SearchBar extends Component {\n	constructor(options){\n		super(options);\n\n		this.state = {term: \"\"};\n	}\n\n	render() {\n		return (\n			<input\n				value={this.state.term}\n				onChange={event => this.setState({term: event.target.value})}\n			/>\n		);\n	}\n}\n",
-			"file": "src/components/search-bar.jsx",
-			"file_size": 326,
-			"file_write_time": 131022186389411676,
+			"file": "src/index.js",
 			"settings":
 			{
-				"buffer_size": 308,
+				"buffer_size": 270,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Roman/Projects/bitbucket.org/words/Words.WebUI/Words.WebUI.csproj",
-			"settings":
-			{
-				"buffer_size": 31424,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Windows Registry Editor Version 5.00\n\n[HKEY_CURRENT_USER\\Software\\Photodex]\n\n[HKEY_CURRENT_USER\\Software\\Photodex\\ProShow]\n\n[HKEY_CURRENT_USER\\Software\\Photodex\\ProShow\\license]\n\n[HKEY_CURRENT_USER\\Software\\Photodex\\ProShow\\license\\install]\n\n[HKEY_CURRENT_USER\\Software\\Photodex\\ProShow\\license\\install\\21]\n@=\"VMW73CXYPPTK3CXYPKBB\"\n\n[HKEY_CURRENT_USER\\Software\\Photodex\\ProShow\\license\\install\\25]\n@=\"VMW73CXYPPTK3CXYPKBB\"\n\n[HKEY_CURRENT_USER\\Software\\Photodex\\ProShow\\license\\install\\cachedirectory25]\n@=\"7K2KZKACMKTG3HSX6ZAFVKV7ZP0CFVSQG2XCFND7E2P70UTV8K1WQHYY8MMK6MUY22AGQ3XX0K8GV1V16UUFD5XXKZHGVSAX00AFF1SB\"\n\n[HKEY_CURRENT_USER\\Software\\Photodex\\ProShow\\license\\install\\name]\n@=\"0NPE8MUXZ1UBM6BF3NTK3QSFMNTQDNYNMNTQFNVX9M0BB\"\n\n",
-			"file": "/G/Install/SOFT/Photodex Proshow Producer 5.0.3206 - RES/crack/regged.reg",
-			"file_size": 1508,
-			"file_write_time": 129729162040000000,
-			"settings":
-			{
-				"buffer_size": 731,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±,ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±±±±|±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±±±±±±±±|±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±±±±±±±±±±±,±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±,,,_°±±±±±±±±±\\-±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±±±±|`°±±±±±±±±±|±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±±±±/°±\\.,±±±±.----±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±±±±/±±±±°---'±±±±±,±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±±`'`±±±±±±±±±±±±±±±|±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±|±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±/,±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±±±±±±±²²²²±±±±±±±±±±|\\±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±±±±±±²²  ²²±²²²±±±±±|±\\±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±²²²²²²  ²²²²² ²±±±±/±±±.±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±²   ²²²²²²²²²²²±±±±\\±±±±/±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±²  ²²²  ²²²²  ²±±±±±±±±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±±²²²²±²  ²²±²  ²±±±±±±±±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±±²   ²±²²²²²±²²²²±±±±±±±±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±±²²  ²²²²  ²²²²  ²±±±±±±±±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±²²²²   ²±²   ²±²²  ²²²²²²±±±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±² ²²²²²²²²   ²²²²  ²²   ²²±±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±²²²²²   ²²²   ²±²  ²±²   ²²±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±²  ²²   ²²²   ²²²²²²²²²   ²±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±²² ²²²   ²²² ²²²²  ²²²   ²²±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±²² ²²²²²²²   ²²   ²²   ²²±±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±²²²²²   ²    ²   ²²   ²±±±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±²  ²²    ²  ²²²²²²²  ²²±±±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±²   ²²  ²²²²²²     ²²²±±±±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±±±±²² ²²²²²           ²±±±±±±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\n²²²²²²²²²²²²²²²²²±±±±±±±±±±±²²     ²    ²     ²±±±±±±±±±±±²²²²²²²²²²²²²²²²²²²\n°°°°°°°°°°°°°°°°°±±±±±±±±±±±±²               ²²±±±±±±±±±±²°°°°°°°°°°°°°°°°°°°\n°°°°°°°°°°°°°°°°°±±±±±±±±±±±±²²     ²²²²²²  ²²±±±±±±±±±²²²°°°°°°±±°°°°°°°°°°°\n±±±°°°°°°°°°°°°°°±±±±±±±±±±±±±²²  ²        ²²±±±±±±±±±±²²±°°°°°°°°±°°°°°°°°°°\n°°±±°°°°°°°°°°°°°±±±±±±±±±±±±±±²²²²   ²    ²±±±±±±±±±±±²²²°°°°°°°°±±±±±±±±±°°\n°°°±±±±°°°²°°°°°°±±²²±±±±±±±±±±±±±²   ±²²   ²±±±±±±±±±±±²²²²°°°°²°°°°°°°°°°°°°°\n°°°°°°°°°°²²²°°°°±±²²±±±±±±±±±±±±²   ±²²   ²²±±±±±±±±±±±²²²°°°°²°°°°°°°°°°°°°°\n°°°°°°°°°°°°²²²°°±±²²±±±±±±±±±±±±²   ±²²²   ²±±±±±±±±±±±²²²²°°°²°°°°°°°°°°°°°°\n°°°°°°°°°°°°²²²°±±²²±±±±±±±±±±±±±²   ±²±²   ²±±±±±±±±±±±²²²°°°²²°°°°°°°°°°°°°°\n°°°°°°°°²²°°°²²²±±±²²²±±±±±²²²²±±±²   ±²±²   ²±±±±±±±±±±²²²²°°°²²°°±°°°±±±±±±°°\n°°°°°°°²²°°°°°²²²±±±²²±²±±²²²±±±±±²   ±²±²   ²±±±±±±±±±²²²±°°°²²°°±±±±°°°°°°°°\n°°°°°°°²²²°°°°°²²²±±²²±²±²²²²±±±±±²   ±²±²   ²±±±±±±±²²²²±±°°°²²°°²²°°°°°°°°°°\n°°°°°°°°²²²²²²²²²²²±²²²²±²²²±±±±±±²   ±²±²   ²±±±±±±²²²²²²²²²²°²²²²²²°°°°°°°°°°\n°°°°°°°°°°°°²²²²²²²±²²²²±²²²²±±±±±±²   ±²²²   ²±±±²²²²°²²²²°°°°°°°°°°°°°°°\n°°°°°°°°°°°²²²²²²²²²²²±±²²²²±±±±±±±²   ±²²   ²²±±²²²²°°²²°°°°°°°°°°°°°°°°°\n°°°°°°°²²²²²²²°°°²²²²²²²²²²²±±±±±±²  ±²²   ²ÛÛ²±±  ²²²²°°°°°°°°°°°°°°°°°°°°°\n°°°°°°°°²²²²°°°°°°°²²²²²²±±±Û²  ±²   ²Û²²Û²²±±± ±±±±±±±±°±±±±°°°°°°°°°°°°\n°°°°°°°°°°°°°°°°°°°²²²±²²²ÛÛÛ²       ²ÛÛÛ²²±±±±±±±±±±°°°°°°°°°°°°°°°°°°°°\n°°°°°°°°°°°°°°°°°°°²²²²±°°°±±²ÛÛÛÛÛÛÛÛÛ°°°°°ÛÛÛÛ²²²²±±°°°°°°°°°°°°°°°°°°°°°°°°°°\n°°°°°°°°°°°°°°°°°°°°°°°°°°±±²±Û²±±²ÛÛÛÛÛ±ÛÛÛÛÛÛÛÛÛ²²±±±±±±±±±±±±±±±°°°°°°°°°°°°°\n²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\nÛTEAM  Û      Û Û    Û ÛÛÛÛ Û      Û      Û      Û      Û      Û Û     ÛÛ   ÛÛ Û\nÛ ÛÛÛÛ ÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛ ÛÛÛÛ Û ÛÛÛÛ Û ÛÛÛÛ ÛÛÛÛÛÛÛÛ ÛÛÛÛ ÛÛÛ ÛÛÛÛÛÛ ÛÛÛÛ Û Û  Û Û\nÛ      Û      Û      Û ÛÛÛÛ Û      Û      Û      Û ÛÛÛÛÛÛÛÛ ÛÛÛÛ Û ÛÛÛÛ Û ÛÛ Û Û\nÛ Û ÛÛÛÛ ÛÛÛÛÛÛÛÛÛÛÛ Û ÛÛÛÛ Û Û ÛÛÛÛ Û ÛÛÛÛ ÛÛÛÛÛÛ ÛÛÛÛÛÛÛÛ ÛÛÛÛ Û ÛÛÛÛ Û ÛÛ Û Û\nÛ Û    Û      Û    Û ÛÛ     Û Û    Û Û    Û      Û      ÛÛÛ    Û ÛÛ     Û ÛÛÛ  Û\nÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ\n²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²\n\n                                TEAM RESURRECTiON\n\n                                PROUDLY  PRESENTS\n\n\nÛÛÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛÛÛ\nÛÛ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²±±²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²ÛÛ\nÛ²²ßßßßßßßßßßßßßßßßßßßßßßßßßßß²²²²²²²²²°°²²²²²²²²²ßßßßßßßßßßßßßßßßßßßßßßßßßßß²²Û\n²²±°±±±±±±±±±°°°°°°±±±±±±²²²²²²       °°°°       ²²²²²²±±±±±±°°°°°°±±±±±±±±±°±²²\n²±±°±±±±°±°±°   °°±                                          ±°°   °±°±°±±±±°±±²\n±±°°±°±° ° °     °°                                          °°     ° ° °±°±°°±±\n°°° ° °            °                                        °            ° ° °°±\n°                                                                             °°\n°                                                                              °\n\n                      Photodex Proshow Producer v5.0.3206\n\n     Cracked by..............Silence  Release type................Cracked\n     Supplied by.............Silence  Protection type................None\n     Release date...........02/04/12  Operating system.............WinALL\n\n\nÛÛÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛÛÛ\nÛÛ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²±±²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²ÛÛ\nÛ²²ßßßßßßßßßßßßßßßßßßßßßßßßßßß²²²²²²²²²°°²²²²²²²²²ßßßßßßßßßßßßßßßßßßßßßßßßßßß²²Û\n²²± RELEASE INFORMATION       ²²²²    °°°°       ²²²²²²±±±±±±°°°°°°±±±±±±±±±°±²²\n²±±ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ²²                             ±°°   °±°±°±±±±°±±²\n±±°°°°°°°°°±±±±±±±±±±±²²²²²²²²²                              °°     ° ° °±°±°°±±\n°°° ° °   ±±  ±    °    °°°°                                °            ° ° °°±\n°            ±                                                                °°\n°                                                                              °\n\n     ProShow Gold is an easily create photo and video slide shows on \n     DVD, PC, and Web. It is the complete slide show software solution\n     for sharing your best memories. Bring still photos to life by adding \n     motion effects like pan, zoom, and rotate. Add captions to a photo \n     or video and choose from over 280 exciting transition effects.\n\n     For more information visit : http://www.photodex.com\n\n\nÛÛÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛÛÛ\nÛÛ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²±±²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²ÛÛ\nÛ²²ßßßßßßßßßßßßßßßßßßßßßßßßßßß²²²²²²²²²°°²²²²²²²²²ßßßßßßßßßßßßßßßßßßßßßßßßßßß²²Û\n²²± INSTALL NOTES             ²²²²    °°°°       ²²²²²²±±±±±±°°°°°°±±±±±±±±±°±²²\n²±±ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ²²                             ±°°   °±°±°±±±±°±±²\n±±°°°°°°°°°±±±±±±±±±±±²²²²²²²²²                              °°     ° ° °±°±°°±±\n°°° ° °   ±±  ±    °    °°°°                                °            ° ° °°±\n°            ±                                                                °°\n°                                                                              °\n\n\n\n     This is the offical patch for Photodex Proshow Producer v5.0.3206.\n     A fucking gay leaked a non working patch for it, \n     so this is why it became a private release.\n\n\n     1. Install the app.\n     2. Open & apply the patch with the password: private\n     3. Add the regfile to registry\n\n\n\n     Enjoy another quality release by TEAM RESURRECTiON\n\n     IF YOU LIKE THIS PROGRAM YOU SHOULD BUY IT!\n\n        ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²\n  ²²²²²²²²²²±°JUST SOME THOUGHTS°±²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²\n  ²           -------------------                                         ²\n  ²                                                                       ²²²²\n  ²                                                                          ²\n  ²   If people have the dollars and love your software, they will buy it.   ²\n  ²                                                                          ²\n  ²   If people don't have the dollars & even without the availability of    ²\n  ²   cracks, they won't buy.                                                ²\n  ²                                                                          ²\n  ²   If people can crack your software, does it means your software         ²\n  ²   protection is bullshit?                                                ²\n  ²                                                                          ²\n  ²   Isn't availability of cracks a free advertisement for software?        ²\n  ²°°                                                                        ²\n  ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²\n\n\nÛÛÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛÛÛ\nÛÛ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²±±²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²ÛÛ\nÛ²²ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß²²²²°°²²²²²²²²²ßßßßßßßßßßßßßßßßßßßßßßßßßßß²²Û\n²²± TEAM RESURRECTiON ANNOUNCEMENT ²² °°°°       ²²²²²²±±±±±±°°°°°°±±±±±±±±±°±²²\n²±±ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ²                         ±°°   °±°±°±±±±°±±²\n±±°°°°°°°°°±±±±±±±±±±±²²²²²²²²²²²²²                          °°     ° ° °±°±°°±±\n°°° ° °   ±±  ±    °    °°°°                                °            ° ° °°±\n°            ±                                                                °°\n°                                                                              °\n\n     We  crack  what  we want and not what you asked. Save some breath with\n     your requests!\n\n     We  crack  appz  for  fun.  Get  the  fuck  off if you are looking for\n     commercial releases!\n\n     We  are  not  your  Customer  Service  Center.  If  you  have  so much\n     complaints, go crack yourself.\n\n     ****** TEAM RESURRECTiON Official Launch Date: August 1st, 2004 ******\n\n                 We lived and we died and because we died,\n                 we live again. The RESURRECTiON begins...\n\n\nÛÛÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛÛÛ\nÛÛ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²±±²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²ÛÛ\nÛ²²ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß²²²²°°²²²²²²²²²ßßßßßßßßßßßßßßßßßßßßßßßßßßß²²Û\n²²± TEAM RESURRECTiON GREETZ       ²² °°°°       ²²²²²²±±±±±±°°°°°°±±±±±±±±±°±²²\n²±±ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ²                         ±°°   °±°±°±±±±°±±²\n±±°°°°°°°°°±±±±±±±±±±±²²²²²²²²²²²²²                          °°     ° ° °±°±°°±±\n°°° ° °   ±±  ±    °    °°°°                                °            ° ° °°±\n°            ±                                                                °°\n°                                                                              °\n\n     GREETZ FLY OUT TO:  AoRE, ARTeam, AT4RE, CracksLatinoS, FFF, ICU, REA,\n     REVENGE,  ROGUE, SnD, tRUE, TSRh, other cracking teams and individuals\n     who  are  actively  contributing  to  the scene with quality releases,\n     OpenSource and Freeware Developers.\n\n     We would also like to take this opportunity to thank our board members\n     for their continuous support.\n\n\nÛÛÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛÛÛ\nÛÛ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²±±²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²ÛÛ\nÛ²²ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß²²²²°°²²²²²²²²²ßßßßßßßßßßßßßßßßßßßßßßßßßßß²²Û\n²²± TEAM RESURRECTiON MEMBERS      ²² °°°°       ²²²²²²±±±±±±°°°°°°±±±±±±±±±°±²²\n²±±ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ²                         ±°°   °±°±°±±±±°±±²\n±±°°°°°°°°°±±±±±±±±±±±²²²²²²²²²²²²²                          °°     ° ° °±°±°°±±\n°°° ° °   ±±  ±    °    °°°°                                °            ° ° °°±\n°            ±                                                                °°\n°                                                                              °\n\n     [ AvAtAr....................................founder/keygener/cracker ]\n     [ Chief.......................................founder/web/all-around ]\n     [ stephenteh.........................................founder/cracker ]\n     [ GaBoR.............................................keygener/cracker ]\n     [ Nacho......................................................cracker ]\n     [ sEby..............................................keygener/cracker ]\n     [ rESin......................................................cracker ]\n     [ SunBeam....................................................cracker ]\n     [ npad69.....................................................cracker ]\n     [ zart..............................................keygener/cracker ]\n     [ DrPCPutte.........................................keygener/cracker ]\n     [ Ribs.......................................................cracker ]\n     [ krasenko...........................................supplier/carder ]\n     [ LaFarge...........................................keygener/cracker ]\n     [ n00b..............................................keygener/cracker ]\n     [ Hell.......................................................cracker ]\n     [ R3V3RS3..............................................trial cracker ]\n     [ Silence....................................................cracker ]\n\n     [ HALL OF FAME ]\n     [ SuoidO.............................................founder/cracker ]\n     [ The Day Walker!............................................cracker ]\n     [ nick_name..................................................cracker ]\n     [ codeX......................................................cracker ]\n     [ Sparks.....................................................cracker ]\n     [ Buzifer....................................................cracker ]\n     [ Fragg3r....................................................cracker ]\n     [ JohnWho....................................................cracker ]\n     [ atom0s.......................................................coder ]\n     [ Psych......................................................cracker ]\n\n     Wanna join TEAM RESURRECTiON? Sign up as member in our board and\n     apply. We DO NOT accept total newbies. To apply, you must at least\n     have some basic cracking knowledge & better still, if you are able to\n     do manual unpacking.\n\n     If you are a web designer, can design good graphics, supply unreleased\n     stuff  or  have  a lot of spare time to contribute daily to our board,\n     you are also welcome to apply.\n\n     Open positions: crackers, coders, suppliers, carders, gfx-rs and more!\n\n\nÛÛÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛÛÛ\nÛÛ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²±±²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²ÛÛ\nÛ²²ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß²²²²°°²²²²²²²²²ßßßßßßßßßßßßßßßßßßßßßßßßßßß²²Û\n²²± CONTACT INFORMATION            ²² °°°°       ²²²²²²±±±±±±°°°°°°±±±±±±±±±°±²²\n²±±ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ²                         ±°°   °±°±°±±±±°±±²\n±±°°°°°°°°°±±±±±±±±±±±²²²²²²²²²²²²²                          °°     ° ° °±°±°°±±\n°°° ° °   ±±  ±    °    °°°°                                °            ° ° °°±\n°            ±                                                                °°\n°                                                                              °\n\n     [ AppzNet Community...........................http://www.appzclub.tk ]\n     [ eMail............................................admin@appzclub.tk ]\n\n\n        ²²²²²²²²²²²²²²²²²²²²\n  ²²²²²²²²²²±°DISCLAIMER°±²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²\n  ²           ----------                                                  ²\n  ²                                                                       ²²²²\n  ²                                                                          ²\n  ²  Attention: Please read these terms carefully before using our release.  ²\n  ²  Using  our  release  indicates  that  you have read and accepted these  ²\n  ²  agreements.  If you do not agree to accept these terms, do not use our  ²\n  ²  release or  information  from  it.  We  may  change  the terms of this  ²\n  ²  agreement at any time.                                                  ²\n  ²                                                                          ²\n  ²  YOU  MAY  USE OUR RELEASE FOR EVALUATION PURPOSES ONLY. WE WILL NOT BE  ²\n  ²  HELD  RESPONSIBLE  FOR  OUR RELEASE. IF YOU LIKE THIS SOFTWARE, YOU'RE  ²\n  ²  STRONGLY  ADVISED  TO  BUY  IT.  SOFTWARE  COMPANIES  NEED SUPPORT FOR  ²\n  ²  QUALITY  PRODUCTS. YOU MAY NOT USE OUR RELEASE TO MAKE MONEY OR USE IT  ²\n  ²  FOR COMMERCIAL PURPOSE.                                                 ²\n° ²°°                                                                        ² °\n± ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²² ±\n²                                                                              ²\n²±                                                                            ±²\n²±°°°°°°  °                                                          °  °°°°°°±²\nÛ±±±±±±°°°  °                                                      °  °°°±±±±±±Û\nÛÛ²²²²±±±°°°ASCii by VocalZ                       Updated 11/13/2009°°°±±±²²²²ÛÛ\nÛÛÛÛÛÛÛÛÜßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÜÛÛÛÛÛÛÛÛ",
-			"file": "/G/Install/SOFT/Photodex Proshow Producer 5.0.3206 - RES/crack/instruction.nfo",
-			"file_size": 18249,
-			"file_write_time": 129729162040000000,
-			"settings":
-			{
-				"buffer_size": 17968,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".eslintrc",
-			"settings":
-			{
-				"buffer_size": 14882,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -86,7 +71,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 249.0,
 		"last_filter": "pci",
 		"selected_items":
 		[
@@ -99,7 +84,7 @@
 	},
 	"console":
 	{
-		"height": 283.0,
+		"height": 105.0,
 		"history":
 		[
 			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
@@ -122,24 +107,28 @@
 	],
 	"file_history":
 	[
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/video-list-item.jsx",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/reducers/index.js",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/.eslintrc",
+		"/C/Roman/Projects/bitbucket.org/NotaryHelpDesk/.hgignore",
+		"/G/Install/SOFT/Photodex Proshow Producer 5.0.3206 - RES/crack/instruction.nfo",
+		"/G/Install/SOFT/Photodex Proshow Producer 5.0.3206 - RES/crack/regged.reg",
+		"/C/Roman/Projects/bitbucket.org/words/Words.WebUI/Words.WebUI.csproj",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/search-bar.jsx",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/app.jsx",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/index.js",
 		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/video-list.jsx",
 		"/C/Users/Roman/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
 		"/C/Roman/Projects/github.com/ReduxSimpleStarter/ReduxSimpleStarter.sublime-project",
 		"/C/Users/Roman/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 		"/C/Users/Roman/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Roman/Projects/github.com/ReduxSimpleStarter/package.json",
-		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/index.js",
-		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/app.jsx",
-		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/search-bar.jsx",
 		"/C/Roman/Projects/github.com/ReduxSimpleStarter/webpack.config.js",
-		"/C/Roman/Projects/github.com/ReduxSimpleStarter/.eslintrc",
 		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/search-bar.js",
 		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/app.js",
-		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/reducers/index.js",
 		"/C/Roman/Projects/bitbucket.org/words/.hg/hgrc",
 		"/C/Roman/Projects/github.com/dive-into-english/.gitignore",
 		"/C/Roman/Projects/bitbucket.org/NotaryHelpDesk/NotaryHelpDesk/App_Data/DocsDB.mdf",
-		"/C/Roman/Projects/bitbucket.org/words/Words.WebUI/Words.WebUI.csproj",
 		"/C/Roman/Projects/bitbucket.org/words/Words.sln",
 		"/C/Roman/Projects/bitbucket.org/words/Words/Web.config",
 		"/C/Roman/Projects/bitbucket.org/words/Words.DAL/DataModel.edmx",
@@ -209,12 +198,68 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/index.js",
+					"file": "src/components/app.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								420,
+								420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/components/video-list-item.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/video-list.jsx",
 					"semi_transient": false,
 					"settings":
 					{
@@ -225,127 +270,13 @@
 						"selection":
 						[
 							[
-								194,
-								194
-							]
-						],
-						"settings":
-						{
-							"spell_check": false,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/components/app.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 207,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								41,
-								41
+								293,
+								293
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/components/search-bar.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 308,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								197,
-								197
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Roman/Projects/bitbucket.org/words/Words.WebUI/Words.WebUI.csproj",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31424,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								29247,
-								29247
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/G/Install/SOFT/Photodex Proshow Producer 5.0.3206 - RES/crack/regged.reg",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 731,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -355,63 +286,59 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/G/Install/SOFT/Photodex Proshow Producer 5.0.3206 - RES/crack/instruction.nfo",
+					"buffer": 3,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17968,
+						"buffer_size": 372,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8110,
-								8117
+								196,
+								196
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1782.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": ".eslintrc",
+					"buffer": 4,
+					"file": "src/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14882,
+						"buffer_size": 270,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9999,
-								9999
+								97,
+								97
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2285.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
